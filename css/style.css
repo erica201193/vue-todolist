@@ -8,3 +8,10 @@ body {
 h1 {
     font-family: 'Ubuntu';
 }
+
+.trash-btn {
+        position: absolute;
+        left: 50%;
+        cursor: pointer;
+        z-index: 999;
+}
