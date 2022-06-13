@@ -19,9 +19,17 @@ const appVue = new Vue({
 
     data: {
         taskList: toDoList,
+        newTask: "",
     },
 	
 	methods: {
+        deleteItem: function (item, oneitem) {
+            this.taskList.splice(item, 1)
+        },
+
+        addItem: function () {
+            return this.taskList.newTask.push
+        }
 
 	}
 });

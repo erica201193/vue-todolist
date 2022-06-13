@@ -10,8 +10,7 @@ h1 {
 }
 
 .trash-btn {
-        position: absolute;
-        left: 50%;
-        cursor: pointer;
-        z-index: 999;
+    position: absolute;
+    right: 1rem;
+    color: rgba(148,166,233,1);
 }
